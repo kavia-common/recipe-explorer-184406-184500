@@ -1,10 +1,10 @@
 <script lang="ts">
-    import Header from '../lib/components/Header.svelte';
-    import SearchBar from '../lib/components/SearchBar.svelte';
-    import RecipeGrid from '../lib/components/RecipeGrid.svelte';
-    import RecipeDetail from '../lib/components/RecipeDetail.svelte';
-    import { fetchRecipes } from '../lib/services/recipes';
-    import type { Recipe } from '../lib/services/recipes';
+    import Header from '$lib/components/Header.svelte';
+    import SearchBar from '$lib/components/SearchBar.svelte';
+    import RecipeGrid from '$lib/components/RecipeGrid.svelte';
+    import RecipeDetail from '$lib/components/RecipeDetail.svelte';
+    import { fetchRecipes } from '$lib/services/recipes';
+    import type { Recipe } from '$lib/services/recipes';
 
     let search = '';
     let loading = true;
